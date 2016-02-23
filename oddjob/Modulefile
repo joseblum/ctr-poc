@@ -1,0 +1,11 @@
+name    'jb-oddjob'
+version '0.1.1'
+source ''
+author 'Jeffrey Earl'
+license ''
+summary 'Module to installand configure oddjob-mkhomedir'
+description 'Used to correctly provision linux users on a AD-joined Linux host'
+project_page ''
+
+## Add dependencies, if any:
+# dependency 'username/name', '>= 1.2.0'

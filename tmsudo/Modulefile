@@ -1,0 +1,14 @@
+name    'jb-tmsudo'
+version '0.1.4'
+source ''
+author 'Jeffrey Earl'
+license ''
+summary 'Manage the Teremark sudo include file for jetblue sudo users'
+description 'This module will configure a /etc/sudoers.d/03_jbcustadm file compatible with the Terremark puppet
+management of sudoers. It takes a hash of security principles and sudo permissions as a parameter. By
+default, it will add the lnxadmins group and the svctib user with full elevation rights.'
+project_page ''
+
+## Add dependencies, if any:
+# dependency 'username/name', '>= 1.2.0'
+dependency 'puppetlabs-stdlib', ''

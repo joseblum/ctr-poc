@@ -1,0 +1,23 @@
+{
+  "author": "Jeffrey Earl",
+  "checksums": {
+    "manifests\\service.pp": "00f3ed7cd150c5f638516e414b909812",
+    "manifests\\init.pp": "8eab593ba11beee6e59574f8a48792ff",
+    "Rakefile": "f37e6131fe7de9a49b09d31596f5fbf1",
+    "spec\\spec_helper.rb": "3ea886dd135e120afa31e0aab12e85b0",
+    "tests\\init.pp": "ef3182cd4ed3650e209a67e8143c5e49",
+    "manifests\\install.pp": "5972e267e4e4db85df419ddf04ef3639",
+    "spec\\spec.opts": "a600ded995d948e393fbe2320ba8e51c",
+    "Modulefile": "dfae5b1168d15b8f28e09eeca3736ec1",
+    "README.markdown": "72eed2d231abe2a82b079925b18fe93a"
+  },
+  "dependencies": [],
+  "description": "Used to correctly provision linux users on a AD-joined Linux host",
+  "license": "",
+  "name": "jb-oddjob",
+  "project_page": "",
+  "source": "",
+  "summary": "Module to installand configure oddjob-mkhomedir",
+  "types": [],
+  "version": "0.1.1"
+}

@@ -1,0 +1,12 @@
+name    'jb-jbrepo'
+version '0.1.6'
+source ''
+author 'Jeffrey Earl'
+license ''
+summary 'Manages the JetBlue Extras yum repository settings.'
+description 'Enables systems to install custom rpms like dsengine, java7jdk, etc.'
+project_page ''
+
+## Add dependencies, if any:
+# dependency 'username/name', '>= 1.2.0'
+dependency 'puppetlabs-stdlib', ''

@@ -1,0 +1,28 @@
+{
+  "author": "Jeffrey Earl",
+  "checksums": {
+    "manifests\\init.pp": "74cc60194f2180495e42828a49f478fa",
+    "Rakefile": "f37e6131fe7de9a49b09d31596f5fbf1",
+    "spec\\spec_helper.rb": "3ea886dd135e120afa31e0aab12e85b0",
+    "tests\\init.pp": "3620a314671109c6c37cf2c2efcc1c0d",
+    "templates\\03_jbcustadm.erb": "dcc3c7c556d4c5c892cd782c02b14027",
+    "manifests\\params.pp": "8ad8be398ee5cf7cefc10ffd1ebde2a0",
+    "spec\\spec.opts": "a600ded995d948e393fbe2320ba8e51c",
+    "Modulefile": "3af8970b4962b1b422e1d9affa4cd20f",
+    "manifests\\config.pp": "6317fb87b2a1dc77c5a0b09c80c7b1fb",
+    "README.markdown": "fbc820b38e8fecadfdea40fecc8df673"
+  },
+  "dependencies": [
+    {
+      "name": "puppetlabs/stdlib"
+    }
+  ],
+  "description": "This module will configure a /etc/sudoers.d/03_jbcustadm file compatible with the Terremark puppet\nmanagement of sudoers. It takes a hash of security principles and sudo permissions as a parameter. By\ndefault, it will add the lnxadmins group and the svctib user with full elevation rights.",
+  "license": "",
+  "name": "jb-tmsudo",
+  "project_page": "",
+  "source": "",
+  "summary": "Manage the Teremark sudo include file for jetblue sudo users",
+  "types": [],
+  "version": "0.1.4"
+}

@@ -1,0 +1,4 @@
+## 03_jbcustadm: Managed by puppet.
+<% @perms.each_pair do |usr, rights| -%>
+<%= "#{usr}   \t#{rights}\n" -%>
+<% end %>

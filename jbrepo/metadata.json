@@ -1,0 +1,27 @@
+{
+  "author": "Jeffrey Earl",
+  "checksums": {
+    "manifests\\init.pp": "3ebd1c4a466fcf827e20ae4d368886ad",
+    "Rakefile": "f37e6131fe7de9a49b09d31596f5fbf1",
+    "spec\\spec_helper.rb": "3ea886dd135e120afa31e0aab12e85b0",
+    "tests\\init.pp": "931351c70a397e2abe8124f364976fde",
+    "manifests\\params.pp": "9f839afd38da80ebd939156da4c74a4e",
+    "spec\\spec.opts": "a600ded995d948e393fbe2320ba8e51c",
+    "Modulefile": "051a85748320f6a16de4e0abe615b442",
+    "manifests\\config.pp": "6ba0ff45805e77315bc3e48ed3b14410",
+    "README.markdown": "c1d4b8b1cb36d5edee2a785be47ae382"
+  },
+  "dependencies": [
+    {
+      "name": "puppetlabs/stdlib"
+    }
+  ],
+  "description": "Enables systems to install custom rpms like dsengine, java7jdk, etc.",
+  "license": "",
+  "name": "jb-jbrepo",
+  "project_page": "",
+  "source": "",
+  "summary": "Manages the JetBlue Extras yum repository settings.",
+  "types": [],
+  "version": "0.1.6"
+}
